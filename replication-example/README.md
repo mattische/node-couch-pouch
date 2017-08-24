@@ -6,10 +6,12 @@ A note to the above; if you have created a admin user in CouchDB;
 Without password;
 
 `$  npm install -g add-cors-to-couchdb
+
 $ add-cors-to-couchdb`
 
 With pass word;
 
 `$  npm install -g add-cors-to-couchdb
+
 $ add-cors-to-couchdb -u <username> -p <password>`
 

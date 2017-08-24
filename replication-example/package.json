@@ -1,0 +1,17 @@
+{
+  "name": "replication-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "masse",
+  "license": "ISC",
+  "dependencies": {
+    "add-cors-to-couchdb": "0.0.6",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "pouchdb": "^6.3.4"
+  }
+}

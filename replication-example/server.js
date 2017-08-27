@@ -10,7 +10,7 @@ app.use(BodyParser.urlencoded({ extended: true }));
 //This will be the local puch database - folder people_pouch
 var database = new PouchDB('people_pouch');
 //This is the remote (localhost) CouchDB database that we sync against
-var remoteCouch = 'http://mattische:cbRu8_=w@localhost:5984/people';
+var remoteCouch = 'http://<user>:<password>@localhost:5984/people';
 
 sync();
 
